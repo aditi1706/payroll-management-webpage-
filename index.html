@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payroll Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Payroll Management System</h1>
+
+    <!-- Employee Input Form -->
+    <form id="employeeForm">
+      <h2>Add Employee</h2>
+      <label for="name">Employee Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="salary">Basic Salary:</label>
+      <input type="number" id="salary" required>
+
+      <label for="tax">Tax Rate (%):</label>
+      <input type="number" id="tax" required>
+
+      <label for="deductions">Deductions:</label>
+      <input type="number" id="deductions" required>
+
+      <button type="submit">Add Employee</button>
+    </form>
+
+    <!-- Payroll Display -->
+    <div id="payrollDisplay">
+      <h2>Employee Payroll</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Basic Salary</th>
+            <th>Tax</th>
+            <th>Deductions</th>
+            <th>Net Salary</th>
+            <th>Actions</th>
+            
+          </tr>
+        </thead>
+        <tbody id="payrollTableBody">
+          <!-- Rows will be added dynamically -->
+        </tbody>
+      </table>
+      <button id="clearData">Clear All Data</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
