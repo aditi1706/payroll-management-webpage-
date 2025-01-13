@@ -1,4 +1,4 @@
-<bold>﻿Payroll Management Webpage</bold>
+<b>﻿Payroll Management Webpage</b> <br>
 A simple web-based application for managing employee payroll.
 
 Features:-
