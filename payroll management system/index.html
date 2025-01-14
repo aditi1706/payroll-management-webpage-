@@ -25,30 +25,30 @@
       <label for="deductions">Deductions:</label>
       <input type="number" id="deductions" required>
 
-      <button type="submit">Add Employee</button>
+      <button type="submit" id="addEmployeeBtn">Add Employee</button>
     </form>
+  </div>
 
     <!-- Payroll Display -->
-    <div id="payrollDisplay">
-      <h2>Employee Payroll</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Basic Salary</th>
-            <th>Tax</th>
-            <th>Deductions</th>
-            <th>Net Salary</th>
-            <th>Actions</th>
-            
-          </tr>
-        </thead>
-        <tbody id="payrollTableBody">
-          <!-- Rows will be added dynamically -->
-        </tbody>
-      </table>
-      <button id="clearData">Clear All Data</button>
-    </div>
+  <div id="payrollDisplay">
+    <h2>Employee Payroll</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Basic Salary</th>
+          <th>Tax</th>
+          <th>Deductions</th>
+          <th>Net Salary</th>
+          <th>Actions</th>
+          
+        </tr>
+      </thead>
+      <tbody id="payrollTableBody">
+        <!-- Rows will be added dynamically -->
+      </tbody>
+    </table>
+    <button id="clearData">Clear All Data</button>
   </div>
 
   <script src="script.js"></script>

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
   }
@@ -11,10 +11,16 @@ body {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
   }
   
-  h1, h2 {
-    color: #333;
+  h1{
+    color: #000;
+    text-align: center;
+  }
+
+  h2 {
+    color: #000;
   }
   
   /* Form Styles */
@@ -25,19 +31,21 @@ body {
   label {
     display: block;
     margin: 10px 0 5px;
+    color: #666; 
   }
   
   input {
-    width: 100%;
+    width: 95%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    background-color: #f9f9f9;
   }
   
   button {
     padding: 10px 15px;
-    background-color: #28a745;
+    background-color: #e74c3c;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -45,7 +53,7 @@ body {
   }
   
   button:hover {
-    background-color: #218838;
+    background-color: #c0392b;
   }
   
   /* Table Styles */
@@ -63,7 +71,30 @@ body {
   
   th {
     background-color: #f8f9fa;
+    color: #666; 
   }
 
+  #payrollDisplay{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+  }
+
+  #clearData{
+    margin-top: 20px;
+    background-color: #e74c3c; /* Red Button Color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 15px;
+  }
+  
+  #clearData:hover {
+    background-color: #c0392b; /* Darker Red Button Color on Hover */
+  }
 
   
